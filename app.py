@@ -2,8 +2,8 @@ import streamlit as st
 import pickle
 import pandas as pd
 
-model=pickle.load(open(r'C:\Users\tejas\Downloads\Salary prediction\linear regression.pkl','rb'))
-df = pd.read_csv(r'C:\Users\tejas\Downloads\Salary prediction\salary_prediction_ml_dataset.csv')
+model=pickle.load(open(r'linear regression.pkl','rb'))
+df = pd.read_csv(r'salary_prediction_ml_dataset.csv')
 
 
 
